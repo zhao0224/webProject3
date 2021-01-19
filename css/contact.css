@@ -1,0 +1,135 @@
+/* this make sure all text is in center */
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #fcd5ce;
+}
+
+/* header */
+.mynav {
+    margin-top: 12px;
+}
+
+.input-group button {
+    background-color: #f08080;
+}
+
+.input-group i {
+    color: white;
+}
+
+/* This make sure the image doesn't distort */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 50px;
+        height: auto;
+    }
+}
+
+.logo {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* edit the title */
+h1 {
+    font-size: 40px;
+}
+
+/* edit register page */
+.register {
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+/* edit sign in page */
+.signin {
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+/* edit contact us page */
+.contact {
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+/* edit general common parts */
+span,
+label {
+    display: block;
+}
+
+input {
+    width: 240px;
+}
+
+#message {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#email,
+#Password,
+#usernamesignup,
+#emailsignup,
+#passwordsignup,
+#passwordsignup_confirm {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#submit,
+#send {
+    width: 100px;
+    height: 30px;
+    background-color: #463f3a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 1px 1px 0;
+}
+
+#submit:hover,
+#send:hover {
+    color: #f08080;
+}
+
+/* edit the footer */
+.gcs-footer {
+    background: #efefef;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    color: black;
+    position: absolute;
+}
+
+.footer-top {
+    margin-top: 40px;
+}
+
+.gcs-footer a {
+    color: #7d8597;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.gcs-footer a:hover {
+    color: #f08080;
+    text-decoration: underline;
+}
+
+.gcs-footer p {
+    height: 15px;
+    color: black;
+    margin-top: 15px;
+}

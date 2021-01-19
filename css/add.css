@@ -1,0 +1,179 @@
+/* header */
+.header {
+    text-align: center;
+    background-color: #eee;
+}
+
+.header h1 {
+    color: #ff686b;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+/* This make sure the image doesn't distort */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 50px;
+        height: auto;
+    }
+}
+
+.logo {
+    width: 3%;
+    margin-bottom: 12px;
+}
+
+/* this edit the sidebar */
+.sidenav {
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 30px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    box-shadow: 0 1px 1px 0;
+}
+
+.sidenav a {
+    padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff686b;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #463f3a;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* this edit the main part */
+body {
+    background-color: #fcd5ce;
+}
+
+#main {
+    margin-left: 280px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+/* edit the form*/
+#title {
+    width: 720px;
+    height: 35px;
+}
+
+.description {
+    display: table;
+}
+
+#description {
+    width: 810px;
+    height: 200px;
+}
+
+#pic {
+    height: 35px;
+}
+
+.formContentButton {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.formContentButton input {
+    height: 35px;
+    width: 120px;
+    background-color: #463f3a;
+    color: white;
+    margin-left: 30px;
+}
+
+#submit:hover,
+#reset:hover {
+    color: #f08080;
+}
+
+.price,
+.rating {
+    padding-left: 25px;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+form .formContent {
+    display: table;
+}
+
+label,
+input,
+select,
+textarea {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+label {
+    width: 90px;
+}
+
+#catalog,
+#price,
+#rating {
+    width: 180px;
+    height: 35px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+/* edit the footer */
+.gcs-footer {
+    margin-top: 20px;
+    background: #efefef;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    color: black;
+    position: absolute;
+}
+
+.footer-top {
+    margin-top: 40px;
+}
+
+.gcs-footer a {
+    color: #7d8597;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.gcs-footer a:hover {
+    color: #f08080;
+    text-decoration: underline;
+}
+
+.gcs-footer p {
+    height: 15px;
+    color: black;
+    margin-top: 15px;
+}

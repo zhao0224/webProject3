@@ -1,0 +1,257 @@
+* {
+    text-align: center;
+}
+
+/* header */
+.mynav {
+    margin-top: 12px;
+}
+
+.input-group button {
+    background-color: #f08080;
+}
+
+.input-group i {
+    color: white;
+}
+
+/* This make sure the image doesn't distort */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 50px;
+        height: auto;
+    }
+}
+
+.logo {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* edit the main part */
+#mainPart {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+/* edit the product pictures */
+#wrapper {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#wrapper .content {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#wrapper>.content>.imgs {
+    box-sizing: border-box;
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    border: 10px solid #F0F0F0;
+    background: #F0F0F0;
+    border-radius: 5px;
+    list-style: none;
+}
+
+#wrapper>.content>.imgs li {
+    box-sizing: border-box;
+    width: 375px;
+    height: 325px;
+    border: 1px solid #fff;
+}
+
+#wrapper>.content>.imgs>li img {
+    margin-top: 16px;
+
+    width: 290px;
+    height: 290px;
+}
+
+#wrapper>.dots {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    top: 0px;
+    width: 100px;
+    list-style: none;
+}
+
+#wrapper>.dots li {
+    box-sizing: border-box;
+    width: 113px;
+    height: 113px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #F0F0F0;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#wrapper>.dots li:last-child {
+    margin-bottom: 0;
+}
+
+#wrapper>.dots li .dot_img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+}
+
+li.active {
+    padding: 1px !important;
+    border: 1px solid #f08080 !important;
+    background: #fff !important;
+}
+
+li.active .dot_img {
+    border: 3px solid #f4acb7 !important;
+}
+
+li.quiet {
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #F0F0F0;
+}
+
+li.quire .dot_img {
+    border: 1px solid #fff;
+}
+
+/* edit the product description */
+.description {
+    margin-top: -20px;
+}
+
+.description h1,
+h2,
+p {
+    text-align: center;
+}
+
+.description p {
+    text-align: left;
+}
+
+.description img {
+    width: 10%;
+}
+
+/* edit the stars */
+.fa {
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.calPrice {
+    font-size: 20px;
+    color: #f08080;
+    float: left;
+    display: inline-block;
+}
+
+#tPrice {
+    height: 30px;
+    width: 70px;
+    float: left;
+    font-size: 20px;
+    margin-top: -1px;
+    display: inline-block;
+    border: none;
+}
+
+/* edit the quantity part */
+.quantity-button {
+    margin-top: 30px;
+}
+
+.quantity-button input {
+    width: 40px;
+    height: 40px;
+    border: none;
+    float: left;
+}
+
+#sub,
+#plus {
+    background-color: #f08080;
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 2px 2px 0;
+}
+
+#textNum {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    border: 1.5px solid;
+    border-color: black
+}
+
+#rate {
+    float: left;
+}
+
+#quantity {
+    margin-top: 50px;
+    text-align: left
+}
+
+#button {
+    margin-left: 80px;
+    width: 100px;
+    height: 40px;
+    background-color: #f08080;
+    border: none;
+    font-size: 15px;
+    color: white;
+    box-shadow: 0 2px 2px 0;
+}
+
+#button:hover {
+    color: gainsboro;
+}
+
+/* edit the footer */
+.gcs-footer {
+    margin-top: 50px;
+    background: #efefef;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    color: black;
+    position: absolute;
+}
+
+.footer-top {
+    margin-top: 40px;
+}
+
+.gcs-footer a {
+    color: #7d8597;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.gcs-footer a:hover {
+    color: #f08080;
+    text-decoration: underline;
+}
+
+.gcs-footer p {
+    height: 15px;
+    color: black;
+    margin-top: 15px;
+}
